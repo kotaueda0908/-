@@ -1,9 +1,170 @@
 @import "compass";
 
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 200px 0 200px 0;
+    background-image: url(../images/Background.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.top-wrapper h1 {
+    font-size: 60px;
+    letter-spacing: 5px ;
+    line-height: 14px;
+    font-weight: 300;
+}
+
+.top-wrapper p {
+    font-size: 28px;
+    font-weight: 200;
+}
+
 .header-left {
+    padding-left: 200px;
+    padding-top: 60px;
     float: left;
+    font-size: 15px;
+    font-family: sans-serif;
 }
 
 .header-right {
+    padding-right: 200px;
+    padding-top: 60px;
+    display: inline-block;
     float: right;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    margin: 10px;
+}
+
+.signup {
+    padding: 7px 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+  }
+  
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    border-radius: 20px;
+    background-color: #FF6666;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+
+  .works {
+      padding: 10px 100px;
+  }
+
+  .work {
+    float: left;
+    width: 33%;
+  }
+
+  .work-wrapper {
+    height: 500px;
+    padding: 100px 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
+  .work-wrapper p {
+    text-align: left;
+  }
+
+  .work-icon {
+    position: relative;
+  }
+  
+  .top-txt {
+    position: absolute;
+    top: 190px;
+    left: 30px;
+    padding: 3px 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    background-color: #FF6666;
+    font-weight: 100;
+  }
+
+
+  .title-txt {
+    position: absolute;
+    top: 210px;
+    left: 30px;
+    letter-spacing: 2px;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+
+  .txt-contents {
+    position: absolute;
+    top: 290px;
+    left: 30px;
+    width: 100%;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 100;
+    opacity: 0.8;
+  }
+
+  .heading h2 {
+      color: black;
+      font-family: sans-serif;
+      font-weight: 200;
+      margin-top: 0;
+  }
+
+  .partners {
+    padding: 10px 40px;
+}
+
+.partner {
+  float: left;
+  width: 25%;
+}
+
+.partner-wrapper {
+  height: 500px;
+  padding-bottom: 70px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.border_radius {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }

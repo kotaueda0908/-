@@ -1,9 +1,192 @@
 /* line 3, ../sass/test.scss */
-.header-left {
-  float: left;
+body {
+  margin: 0;
 }
 
 /* line 7, ../sass/test.scss */
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* line 13, ../sass/test.scss */
+.top-wrapper {
+  padding: 200px 0 200px 0;
+  background-image: url(../images/Background.png);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+/* line 22, ../sass/test.scss */
+.top-wrapper h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+  line-height: 14px;
+  font-weight: 300;
+}
+
+/* line 29, ../sass/test.scss */
+.top-wrapper p {
+  font-size: 28px;
+  font-weight: 200;
+}
+
+/* line 34, ../sass/test.scss */
+.header-left {
+  padding-left: 200px;
+  padding-top: 60px;
+  float: left;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+/* line 42, ../sass/test.scss */
 .header-right {
+  padding-right: 200px;
+  padding-top: 60px;
+  display: inline-block;
   float: right;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+/* line 51, ../sass/test.scss */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 56, ../sass/test.scss */
+.login {
+  margin: 10px;
+}
+
+/* line 60, ../sass/test.scss */
+.signup {
+  padding: 7px 15px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+/* line 66, ../sass/test.scss */
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+/* line 71, ../sass/test.scss */
+.btn {
+  padding: 8px 24px;
+  color: white;
+  border-radius: 20px;
+  background-color: #FF6666;
+}
+
+/* line 78, ../sass/test.scss */
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* line 82, ../sass/test.scss */
+.works {
+  padding: 10px 100px;
+}
+
+/* line 86, ../sass/test.scss */
+.work {
+  float: left;
+  width: 33%;
+}
+
+/* line 91, ../sass/test.scss */
+.work-wrapper {
+  height: 500px;
+  padding: 100px 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+/* line 98, ../sass/test.scss */
+.work-wrapper p {
+  text-align: left;
+}
+
+/* line 102, ../sass/test.scss */
+.work-icon {
+  position: relative;
+}
+
+/* line 106, ../sass/test.scss */
+.top-txt {
+  position: absolute;
+  top: 190px;
+  left: 30px;
+  padding: 3px 20px;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+  background-color: #FF6666;
+  font-weight: 100;
+}
+
+/* line 120, ../sass/test.scss */
+.title-txt {
+  position: absolute;
+  top: 210px;
+  left: 30px;
+  letter-spacing: 2px;
+  width: 100%;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+/* line 132, ../sass/test.scss */
+.txt-contents {
+  position: absolute;
+  top: 290px;
+  left: 30px;
+  width: 100%;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 100;
+  opacity: 0.8;
+}
+
+/* line 143, ../sass/test.scss */
+.heading h2 {
+  color: black;
+  font-family: sans-serif;
+  font-weight: 200;
+  margin-top: 0;
+}
+
+/* line 150, ../sass/test.scss */
+.partners {
+  padding: 10px 40px;
+}
+
+/* line 154, ../sass/test.scss */
+.partner {
+  float: left;
+  width: 25%;
+}
+
+/* line 159, ../sass/test.scss */
+.partner-wrapper {
+  height: 500px;
+  padding-bottom: 70px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+/* line 166, ../sass/test.scss */
+.border_radius {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
 }
