@@ -1,98 +1,448 @@
 @media screen and (max-width:480px) {
-
-    body {
-        margin: auto;
-        padding:  auto;
-        width: 100%;
+    .top-wrapper h1 {
+        display: inline-block;
+        font-size: 35px;
+        margin-top: 5px;
+        letter-spacing: 1px;
+        line-height: 40px;
+        font-weight: 600;
     }
 
-    .container {
+    .top-wrapper p {
+        font-size: 18px;
+        font-weight: 200;
+        margin-bottom: 60px;
+    }
+
+
+    .partners {
+        padding: 10px 0px;
+    }
+
+
+     .works {
+        padding: 10px 0px;
+    }
+
+    .work {
+        display: inline-block;
+        text-align: center;
         width: 100%;
-        height: 300px;
-        margin-top: 150px;
+        float: none;
+      }
+
+    .partner {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        float: none;
+    }
+
+    .work-wrapper {
+        height: auto;
+        padding: auto;
+        text-align: center;
+      }
+
+      .work-wrapper p {
+        text-align: center;
+      }
+
+      .partner-wrapper {
+        height: auto;
+        padding: auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        background-color: #f7f7f7;
+        text-align: center;
+      }
+
+
+    .top-wrapper {
+        padding: 20px;
+        height: 500px;
+        background-image: url(../images/Background.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
     }
 
     .header-left {
-        padding-left: 210px;
-        font-size: 30px;
-        display: inline-block;
-        text-align: center;
-        font-family: sans-serif;
+        padding-left: 120px;
+        padding-top: 50px;
         float: left;
-        padding-top: 90px;
-    }
-    
-    .header-right {
         display: inline-block;
         text-align: center;
         font-size: 20px;
         font-family: sans-serif;
-        padding-right: 0px;
-        padding-top: 100px;
-    }
-
-    .login {
-        margin-right: -50px;
-        margin-left: 0;
-    }
-
-
-    .signup {
-        margin-left: 60px;
-        border: 1px solid white;
-        border-radius: 20px;
-        margin-right: -15px;
-    }
-
-    .top-wrapper {
-        background-size: cover;
-        padding-top: 48.6%;
-        background-position: center center;
-        margin-right: -240px;
     }
     
-    .top-wrapper h1 {
-        font-size: 50px;
-        letter-spacing: 0;
-        line-height: 0;
-        font-weight: 300;
-        margin-top: 80px;
+    .header-right {
+        padding-right: 115px;
+        padding-top: 50px;
+        display: inline-block;
+        float: right;
+        font-size: 15px;
+        font-family: sans-serif;
     }
 
     .btn-wrapper {
-        margin-top: 100px;
+        margin-top: 50px;
+    }
+
+    .btn-wrapper {
+        margin: 10px 0px;
       }
 
     .btn {
-        padding: 10px 100px;
-        font-size: 30px;
+        padding: 8px 40px;
+        font-size: 20px;
         color: white;
-        border-radius: 30px;
+        border-radius: 50px;
         background-color: #FF6666;
       }
 
-    .works {
-        padding: 10px 10px;
-    }
-  
-    .work {
-      float: none;
-      width: 100%;
-    }
-  
-    .work-wrapper {
-      height: 500px;
-      padding-left: 150px;
-      background-color: #f7f7f7;
-      text-align: center;
+      .container {
+        width: 100%;
+        padding: auto;
+        margin: auto;
+        margin-top: 50px;
+        display: inline-block;
+        text-align: center;
     }
 
-    .heading h2 {
-        color: black;
+    .work-wrapper h2 {
+        width: 100%;
+        padding-right: 10px;
+        font-size: 25px;
+    }
+
+    .top-txt {
+        position: absolute;
+        top: 230px;
+        left: 30px;
+        padding: 3px 20px;
+        border-radius: 20px;
+        color: white;
+        font-size: 12px;
         font-family: sans-serif;
-        font-weight: 200;
-        margin-top: 0;
+        background-color: #FF6666;
+        font-weight: 100;
+      }
+    
+    
+      .title-txt {
+        position: absolute;
+        top: 250px;
+        left: 30px;
+        letter-spacing: 2px;
+        width: auto;
+        color: white;
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: 500;
+      }
+    
+      .txt-contents {
+        position: absolute;
+        top: 340px;
+        left: 30px;
+        width: auto;
+        color: white;
+        letter-spacing: 1px;
+        font-weight: 100;
+        opacity: 0.8;
+      }
+
+      .work-wrapper {
+          width: 100%;
+          padding: 0;
+      }
+
+      .work-wrapper img {
+        width: 100%;
         text-align: center;
-        padding-left: 0px;
+      }
+
+      .fa-music {
+        color: #f7f7f7;
+        background-color: #FF6666;
+        padding: 6px;
+        position: absolute;
+        top: 90px;
+        right: 120px;
+        border: 3px solid #f7f7f7;
+        border-radius: 50%;
+    }
+    
+    .fa-pencil-alt {
+        color: #f7f7f7;
+        background-color: #66CDAA;
+        padding: 6px;
+        position: absolute;
+        top: 90px;
+        right: 120px;
+        border: 3px solid #f7f7f7;
+        border-radius: 50%;
+    }
+    
+    .fa-camera {
+        color: #f7f7f7;
+        background-color: #FFA500   ;
+        padding: 6px;
+        position: absolute;
+        top: 90px;
+        right: 120px;
+        border: 3px solid #f7f7f7;
+        border-radius: 50%;
+    }
+    
+    .fa-plane {
+        color: #f7f7f7;
+        background-color: #00BFFF;
+        padding: 6px;
+        position: absolute;
+        top: 90px;
+        right: 120px;
+        border: 3px solid #f7f7f7;
+        border-radius: 50%;
+        transform: rotate( 320deg );
+    }
+
+    .other-partner {
+        clear: both;
+        padding: 10px;
+        margin:  0 auto;
+        width: 100%;
+    }
+    
+    .other-partner p {
+        padding: 12px 12px;
+        font-size: 15px;
+        color: #FF6666;
+        border: 2px solid #FF6666;
+        border-radius: 70px;
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    .activity-wrapper {
+        padding: 10px 0px 10px;
+        text-align: center;
+        background-color: #f7f7f7;
+        height: 1180px;
+    }
+    
+    .activities {
+        padding: 10px 0px 10px;
+        padding-top: 20px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .activities img {
+        display: inline-block;
+        height: 150px;
+        width: 100%;
+        padding-top: 5px;
+    }
+
+    .activity-text1 {
+        position: absolute;
+        top: 60px;
+        left: 110px;
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    
+    .activity-text2 {
+        position: absolute;
+        top: 60px;
+        left: 110px;
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    
+    .activity-text3 {
+        position: absolute;
+        top: 60px;
+        left: 70px;
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    
+    .activity-text4 {
+        position: absolute;
+        top: 60px;
+        left: 150px;
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    
+    .activity-text5 {
+        position: absolute;
+        top: 60px;
+        left: 100px;
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    
+    .activity-text6 {
+        position: absolute;
+        top: 60px;
+        left: 100px;
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    
+    .activity-text7 {
+        position: absolute;
+        top: 60px;
+        left: 150px;
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+
+    .form-wrapper {
+        height: 300px;
+        padding-top: 0px;
+        background-color: #f7f7f7;
+        text-align: center;
+    }
+    
+    .form-wrapper h1 {
+        font-family: sans-serif;
+        font-weight: 100;
+        font-size: 25px;
+        display: inline-block;
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+    .form-wrapper p {
+        font-family: sans-serif;
+        font-weight: 100;
+        font-size: 20px;
+        padding-top: 0px;
+        margin-top: 10px;
+        color: gray;
+    }
+    
+    .form-wrapper a {
+        font-family: sans-serif;
+        font-weight: 700;
+        background-color: #FF6666;
+        font-size: 15px;
+        color: white;
+        padding: 3px 100px;
+        border: 8px solid #FF6666;
+        border-radius: 70px;
+    }
+    
+    .form-wrapper a:hover {
+        opacity: 0.8;
+    }
+    
+    .forms {
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .txt-form {
+        padding: 12px 5px;
+        margin-bottom: 25px;
+    }
+    
+    .footer-wrapper {
+        height: 450px;
+        padding: 0px 10px;
+        background-color: #f7f7f7;
+        text-align: center;
+        margin-top: 0px;
+        border-top: solid 2px #FF6666;
+    }
+    
+    .footers {
+        padding: 0px 10px;
+    }
+    
+    .footer-txt {
+        display: inline-block;
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    
+    .footer-txt ul {
+        list-style: none;
+    }
+    
+    ul li {
+        text-align: center;
+    }
+    
+    li a {
+        font-family: sans-serif;
+        color: gray;
+        opacity: 0.7;
+        line-height: 20px;
+    }
+    
+    ul li:hover {
+        opacity: 0.5;
+    }
+    
+    ul {
+        margin: auto;
+        padding: 5px 10px;
+    }
+    
+    .company {
+        padding: 5px 50px;
+        height: 15px;
+        width: 100%;
+    }
+    
+    .dreamshare {
+        color: #FF6666;
+    }
+    
+    .footer-txt h1 {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: sans-serif;
+        width: 100%;
+    }
+    
+    .part, .design, .comp {
+        color: gray;
+    }
+    
+    .design {
+        padding: auto;
+        margin-bottom: 5px;
+    }
+    
+    .footer-txt h3 {
+        font-size: 10px;
+        font-family: sans-serif;
+        opacity: 0.3;
+    }
+    
+    .part {
+        padding: 10px 10px;
+    }
+    
+    .design-txt {
+        padding: 10px 10px;
     }
 }

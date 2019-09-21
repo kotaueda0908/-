@@ -1,110 +1,505 @@
 @media screen and (max-width: 480px) {
-  /* line 3, ../sass/responsive.scss */
-  body {
-    margin: auto;
-    padding: auto;
-    width: 100%;
+  /* line 2, ../sass/responsive.scss */
+  .top-wrapper h1 {
+    display: inline-block;
+    font-size: 35px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-weight: 600;
   }
 
-  /* line 9, ../sass/responsive.scss */
-  .container {
-    width: 100%;
-    height: 300px;
-    margin-top: 150px;
+  /* line 11, ../sass/responsive.scss */
+  .top-wrapper p {
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 60px;
   }
 
-  /* line 15, ../sass/responsive.scss */
-  .header-left {
-    padding-left: 210px;
-    font-size: 30px;
+  /* line 18, ../sass/responsive.scss */
+  .partners {
+    padding: 10px 0px;
+  }
+
+  /* line 23, ../sass/responsive.scss */
+  .works {
+    padding: 10px 0px;
+  }
+
+  /* line 27, ../sass/responsive.scss */
+  .work {
     display: inline-block;
     text-align: center;
-    font-family: sans-serif;
-    float: left;
-    padding-top: 90px;
-  }
-
-  /* line 25, ../sass/responsive.scss */
-  .header-right {
-    display: inline-block;
-    text-align: center;
-    font-size: 20px;
-    font-family: sans-serif;
-    padding-right: 0px;
-    padding-top: 100px;
+    width: 100%;
+    float: none;
   }
 
   /* line 34, ../sass/responsive.scss */
-  .login {
-    margin-right: -50px;
-    margin-left: 0;
+  .partner {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    float: none;
   }
 
-  /* line 40, ../sass/responsive.scss */
-  .signup {
-    margin-left: 60px;
-    border: 1px solid white;
-    border-radius: 20px;
-    margin-right: -15px;
+  /* line 41, ../sass/responsive.scss */
+  .work-wrapper {
+    height: auto;
+    padding: auto;
+    text-align: center;
   }
 
   /* line 47, ../sass/responsive.scss */
-  .top-wrapper {
-    background-size: cover;
-    padding-top: 48.6%;
-    background-position: center center;
-    margin-right: -240px;
+  .work-wrapper p {
+    text-align: center;
   }
 
-  /* line 54, ../sass/responsive.scss */
-  .top-wrapper h1 {
-    font-size: 50px;
-    letter-spacing: 0;
-    line-height: 0;
-    font-weight: 300;
-    margin-top: 80px;
-  }
-
-  /* line 62, ../sass/responsive.scss */
-  .btn-wrapper {
-    margin-top: 100px;
-  }
-
-  /* line 66, ../sass/responsive.scss */
-  .btn {
-    padding: 10px 100px;
-    font-size: 30px;
-    color: white;
-    border-radius: 30px;
-    background-color: #FF6666;
-  }
-
-  /* line 74, ../sass/responsive.scss */
-  .works {
-    padding: 10px 10px;
-  }
-
-  /* line 78, ../sass/responsive.scss */
-  .work {
-    float: none;
-    width: 100%;
-  }
-
-  /* line 83, ../sass/responsive.scss */
-  .work-wrapper {
-    height: 500px;
-    padding-left: 150px;
+  /* line 51, ../sass/responsive.scss */
+  .partner-wrapper {
+    height: auto;
+    padding: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
     background-color: #f7f7f7;
     text-align: center;
   }
 
-  /* line 90, ../sass/responsive.scss */
-  .heading h2 {
-    color: black;
-    font-family: sans-serif;
-    font-weight: 200;
-    margin-top: 0;
+  /* line 61, ../sass/responsive.scss */
+  .top-wrapper {
+    padding: 20px;
+    height: 500px;
+    background-image: url(../images/Background.png);
+    background-size: cover;
+    background-position: center;
     text-align: center;
-    padding-left: 0px;
+    color: white;
+    font-family: sans-serif;
+  }
+
+  /* line 72, ../sass/responsive.scss */
+  .header-left {
+    padding-left: 120px;
+    padding-top: 50px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+
+  /* line 82, ../sass/responsive.scss */
+  .header-right {
+    padding-right: 115px;
+    padding-top: 50px;
+    display: inline-block;
+    float: right;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+  /* line 91, ../sass/responsive.scss */
+  .btn-wrapper {
+    margin-top: 50px;
+  }
+
+  /* line 95, ../sass/responsive.scss */
+  .btn-wrapper {
+    margin: 10px 0px;
+  }
+
+  /* line 99, ../sass/responsive.scss */
+  .btn {
+    padding: 8px 40px;
+    font-size: 20px;
+    color: white;
+    border-radius: 50px;
+    background-color: #FF6666;
+  }
+
+  /* line 107, ../sass/responsive.scss */
+  .container {
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  /* line 116, ../sass/responsive.scss */
+  .work-wrapper h2 {
+    width: 100%;
+    padding-right: 10px;
+    font-size: 25px;
+  }
+
+  /* line 122, ../sass/responsive.scss */
+  .top-txt {
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    padding: 3px 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    background-color: #FF6666;
+    font-weight: 100;
+  }
+
+  /* line 136, ../sass/responsive.scss */
+  .title-txt {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    letter-spacing: 2px;
+    width: auto;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+
+  /* line 148, ../sass/responsive.scss */
+  .txt-contents {
+    position: absolute;
+    top: 340px;
+    left: 30px;
+    width: auto;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 100;
+    opacity: 0.8;
+  }
+
+  /* line 159, ../sass/responsive.scss */
+  .work-wrapper {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* line 164, ../sass/responsive.scss */
+  .work-wrapper img {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* line 169, ../sass/responsive.scss */
+  .fa-music {
+    color: #f7f7f7;
+    background-color: #FF6666;
+    padding: 6px;
+    position: absolute;
+    top: 90px;
+    right: 120px;
+    border: 3px solid #f7f7f7;
+    border-radius: 50%;
+  }
+
+  /* line 180, ../sass/responsive.scss */
+  .fa-pencil-alt {
+    color: #f7f7f7;
+    background-color: #66CDAA;
+    padding: 6px;
+    position: absolute;
+    top: 90px;
+    right: 120px;
+    border: 3px solid #f7f7f7;
+    border-radius: 50%;
+  }
+
+  /* line 191, ../sass/responsive.scss */
+  .fa-camera {
+    color: #f7f7f7;
+    background-color: #FFA500;
+    padding: 6px;
+    position: absolute;
+    top: 90px;
+    right: 120px;
+    border: 3px solid #f7f7f7;
+    border-radius: 50%;
+  }
+
+  /* line 202, ../sass/responsive.scss */
+  .fa-plane {
+    color: #f7f7f7;
+    background-color: #00BFFF;
+    padding: 6px;
+    position: absolute;
+    top: 90px;
+    right: 120px;
+    border: 3px solid #f7f7f7;
+    border-radius: 50%;
+    transform: rotate(320deg);
+  }
+
+  /* line 214, ../sass/responsive.scss */
+  .other-partner {
+    clear: both;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* line 221, ../sass/responsive.scss */
+  .other-partner p {
+    padding: 12px 12px;
+    font-size: 15px;
+    color: #FF6666;
+    border: 2px solid #FF6666;
+    border-radius: 70px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  /* line 231, ../sass/responsive.scss */
+  .activity-wrapper {
+    padding: 10px 0px 10px;
+    text-align: center;
+    background-color: #f7f7f7;
+    height: 1180px;
+  }
+
+  /* line 238, ../sass/responsive.scss */
+  .activities {
+    padding: 10px 0px 10px;
+    padding-top: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  /* line 245, ../sass/responsive.scss */
+  .activities img {
+    display: inline-block;
+    height: 150px;
+    width: 100%;
+    padding-top: 5px;
+  }
+
+  /* line 252, ../sass/responsive.scss */
+  .activity-text1 {
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+  /* line 261, ../sass/responsive.scss */
+  .activity-text2 {
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+  /* line 270, ../sass/responsive.scss */
+  .activity-text3 {
+    position: absolute;
+    top: 60px;
+    left: 70px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+  /* line 279, ../sass/responsive.scss */
+  .activity-text4 {
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+  /* line 288, ../sass/responsive.scss */
+  .activity-text5 {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+  /* line 297, ../sass/responsive.scss */
+  .activity-text6 {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+  /* line 306, ../sass/responsive.scss */
+  .activity-text7 {
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+  /* line 315, ../sass/responsive.scss */
+  .form-wrapper {
+    height: 300px;
+    padding-top: 0px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
+  /* line 322, ../sass/responsive.scss */
+  .form-wrapper h1 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  /* line 331, ../sass/responsive.scss */
+  .form-wrapper p {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    padding-top: 0px;
+    margin-top: 10px;
+    color: gray;
+  }
+
+  /* line 340, ../sass/responsive.scss */
+  .form-wrapper a {
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color: #FF6666;
+    font-size: 15px;
+    color: white;
+    padding: 3px 100px;
+    border: 8px solid #FF6666;
+    border-radius: 70px;
+  }
+
+  /* line 351, ../sass/responsive.scss */
+  .form-wrapper a:hover {
+    opacity: 0.8;
+  }
+
+  /* line 355, ../sass/responsive.scss */
+  .forms {
+    display: inline-block;
+    text-align: center;
+  }
+
+  /* line 360, ../sass/responsive.scss */
+  .txt-form {
+    padding: 12px 5px;
+    margin-bottom: 25px;
+  }
+
+  /* line 365, ../sass/responsive.scss */
+  .footer-wrapper {
+    height: 450px;
+    padding: 0px 10px;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-top: 0px;
+    border-top: solid 2px #FF6666;
+  }
+
+  /* line 374, ../sass/responsive.scss */
+  .footers {
+    padding: 0px 10px;
+  }
+
+  /* line 378, ../sass/responsive.scss */
+  .footer-txt {
+    display: inline-block;
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+
+  /* line 385, ../sass/responsive.scss */
+  .footer-txt ul {
+    list-style: none;
+  }
+
+  /* line 389, ../sass/responsive.scss */
+  ul li {
+    text-align: center;
+  }
+
+  /* line 393, ../sass/responsive.scss */
+  li a {
+    font-family: sans-serif;
+    color: gray;
+    opacity: 0.7;
+    line-height: 20px;
+  }
+
+  /* line 400, ../sass/responsive.scss */
+  ul li:hover {
+    opacity: 0.5;
+  }
+
+  /* line 404, ../sass/responsive.scss */
+  ul {
+    margin: auto;
+    padding: 5px 10px;
+  }
+
+  /* line 409, ../sass/responsive.scss */
+  .company {
+    padding: 5px 50px;
+    height: 15px;
+    width: 100%;
+  }
+
+  /* line 415, ../sass/responsive.scss */
+  .dreamshare {
+    color: #FF6666;
+  }
+
+  /* line 419, ../sass/responsive.scss */
+  .footer-txt h1 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    width: 100%;
+  }
+
+  /* line 426, ../sass/responsive.scss */
+  .part, .design, .comp {
+    color: gray;
+  }
+
+  /* line 430, ../sass/responsive.scss */
+  .design {
+    padding: auto;
+    margin-bottom: 5px;
+  }
+
+  /* line 435, ../sass/responsive.scss */
+  .footer-txt h3 {
+    font-size: 10px;
+    font-family: sans-serif;
+    opacity: 0.3;
+  }
+
+  /* line 441, ../sass/responsive.scss */
+  .part {
+    padding: 10px 10px;
+  }
+
+  /* line 445, ../sass/responsive.scss */
+  .design-txt {
+    padding: 10px 10px;
   }
 }

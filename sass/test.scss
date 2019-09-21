@@ -25,8 +25,8 @@ body {
 
 .top-wrapper h1 {
     font-size: 60px;
-    letter-spacing: 5px ;
-    line-height: 14px;
+    letter-spacing: 5px;
+    line-height: 60px;
     font-weight: 300;
 }
 
@@ -161,7 +161,7 @@ a {
 }
 
 .partner-wrapper {
-  height: 500px;
+  height: 620px;
   padding-top: 150px;
   padding-bottom: 120px;
   background-color: #f7f7f7;
@@ -196,7 +196,7 @@ a {
 
 .fa-camera {
     color: #f7f7f7;
-    background-color: #FFA500	;
+    background-color: #FFA500   ;
     padding: 6px;
     position: absolute;
     top: 90px;
@@ -235,3 +235,277 @@ a {
     opacity: 0.6;
 }
 
+.other-partner {
+    clear: both;
+    padding: 50px;
+    margin:  0 auto;
+    width: 18%;
+}
+
+.other-partner a {
+    padding: 12px 12px;
+    font-size: 15px;
+    color: #FF6666;
+    border: 2px solid #FF6666;
+    border-radius: 70px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.other-partner a:hover {
+    opacity: 0.8;
+}
+
+.activity-wrapper {
+    padding: 200px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.activities {
+    padding: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+    justify-content: center;
+    grid-gap: 10px 0px;
+}
+
+.activities img {
+    display: flex;
+    margin: 0;
+}
+
+.activity-icon {
+    position: relative;
+}
+
+.activity-text1 {
+    position: absolute;
+    top: 140px;
+    left: 90px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.activity-text2 {
+    position: absolute;
+    top: 140px;
+    left: 90px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.activity-text3 {
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.activity-text4 {
+    position: absolute;
+    top: 140px;
+    left: 130px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.activity-text5 {
+    position: absolute;
+    top: 140px;
+    left: 230px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.activity-text6 {
+    position: absolute;
+    top: 140px;
+    left: 230px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.activity-text7 {
+    position: absolute;
+    top: 140px;
+    left: 120px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.activity1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.activity2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.activity3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.activity4 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.activity5 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3
+}
+
+.activity6 {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+
+.activity7 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.form-wrapper {
+    height: 500px;
+    padding-top: 40px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.form-wrapper h1 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+.form-wrapper p {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    padding-top: 15px;
+    color: gray;
+}
+
+.form-wrapper a {
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color: #FF6666;
+    font-size: 12px;
+    color: white;
+    padding: 3px 30px;
+    border: 8px solid #FF6666;
+    border-radius: 70px;
+}
+
+.form-wrapper a:hover {
+    opacity: 0.8;
+}
+
+.forms {
+    display: inline-block;
+    text-align: center;
+}
+
+.txt-form {
+    padding: 12px 5px;
+}
+
+.footer-wrapper {
+    height: 260px;
+    padding-top: 10px;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-top: 0px;
+    border-top: solid 2px #FF6666;
+}
+
+.footers {
+    padding: 10px 300px;
+}
+
+.footer-txt {
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 25%;
+}
+
+.footer-txt ul {
+    list-style: none;
+}
+
+ul li {
+    text-align: left;
+}
+
+li a {
+    font-family: sans-serif;
+    color: gray;
+    opacity: 0.7;
+    line-height: 25px;
+}
+
+ul li:hover {
+    opacity: 0.5;
+}
+
+ul {
+    margin-top: 0;
+}
+
+.company {
+    padding-right: 125px;
+}
+
+.dreamshare {
+    color: #FF6666;
+}
+
+.footer-txt h1 {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.part, .design, .comp {
+    color: gray;
+}
+
+.design {
+    padding-left: 40px;
+    margin-bottom: 5px;
+}
+
+.footer-txt h3 {
+    font-size: 10px;
+    font-family: sans-serif;
+    opacity: 0.3;
+}
+
+.part {
+    padding-right: 180px;
+}
+
+.design-txt {
+    padding-left: 100px;
+}
