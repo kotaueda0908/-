@@ -59,8 +59,7 @@
 
 
     .top-wrapper {
-        padding: 20px;
-        height: 500px;
+        padding: 20px 0;
         background-image: url(../images/Background.png);
         background-size: cover;
         background-position: center;
@@ -70,22 +69,15 @@
     }
 
     .header-left {
-        padding-left: 120px;
-        padding-top: 50px;
-        float: left;
-        display: inline-block;
         text-align: center;
         font-size: 20px;
         font-family: sans-serif;
     }
     
     .header-right {
-        padding-right: 115px;
-        padding-top: 50px;
-        display: inline-block;
-        float: right;
         font-size: 15px;
         font-family: sans-serif;
+        text-align: center;
     }
 
     .btn-wrapper {
